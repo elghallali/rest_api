@@ -32,4 +32,5 @@ public class Product {
     @JoinColumn(name = "category_id")
     @JsonIgnoreProperties({"hibernateLazyInitialize","handler"})
     private Category category;
+    private String imageUrl;
 }
